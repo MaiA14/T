@@ -25,3 +25,7 @@ $ npm install
 ```bash
 $ npm run start
 ```
+
+## Bonus
+I would implment a server that is connected to RabbitMQ
+
