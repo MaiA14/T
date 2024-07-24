@@ -29,7 +29,7 @@ export class App {
 
         this.app.use(
             session({
-                secret: 'keyboard cat',
+                secret: config.server.secret,
                 resave: false,
                 saveUninitialized: true,
                 cookie: { secure: false },
